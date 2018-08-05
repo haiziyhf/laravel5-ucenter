@@ -58,11 +58,6 @@ ucenter配置项
 $result = Ucenter::execute('uc_get_user',['admin']);
 var_dump($result);
 ~~~
-###### 2、直接使用方法名
-~~~
-$result = Ucenter::uc_get_user('admin');
-var_dump($result);
-~~~
 
 ## 感谢
 fork自 https://github.com/goodspb/laravel5-ucenter 更改以适应 laravel 5以上
