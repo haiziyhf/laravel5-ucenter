@@ -1,0 +1,27 @@
+{
+    "name": "hihone/laravel5-ucenter",
+    "description": "Larave5 ucenter",
+    "keywords": ["laravel5", "ucenter"],
+    "homepage": "https://github.com/haiziyhf/laravel5-ucenter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hihone",
+            "email": "hihone@qq.com",
+			"role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hihone\\Laravel5Ucenter\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    }
+}
